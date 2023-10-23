@@ -78,10 +78,10 @@ public class CafeKiosk {
     public static void main(String[] args) {
         // Create a menu
         Menu menu = new Menu();
-        menu.addItem(new Product("커피", 2.5, "깊고 그윽한 향의 커피입니다."));
-        menu.addItem(new Product("차", 2.0, "다양한 종류의 차입니다."));
-        menu.addItem(new Product("머핀", 3.0, "맛있는 머핀입니다."));
-        menu.addItem(new Product("샌드위치", 5.0, "영양가 있는 샌드위치입니다."));
+        menu.addItem(new Product("커피", 3500, "깊고 그윽한 향의 커피입니다."));
+        menu.addItem(new Product("차", 4000, "다양한 종류의 차입니다."));
+        menu.addItem(new Product("머핀", 3900, "맛있는 머핀입니다."));
+        menu.addItem(new Product("샌드위치", 5000, "영양가 있는 샌드위치입니다."));
 
         // Initialize variables
         Scanner scanner = new Scanner(System.in);
